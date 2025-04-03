@@ -12,13 +12,13 @@ import lombok.*;
 public class UsuarioSenhaDto {
 
     @NotBlank
-    @Size(min = 6, max = 10,message = "a senha deve conter apenas 6 caracteres")
+    @Size(min = 6, max = 10,message = "a senha deve conter no maximo 10 caracteres")
     private String senhaAtual;
     @NotBlank
-    @Size(min = 6, max = 10,message = "a senha deve conter apenas 6 caracteres")
+    @Size(min = 6, max = 10,message = "a senha deve conter no maximo 10 caracteres")
     private String novaSenha;
     @NotBlank
-    @Size(min = 6, max = 10,message = "a senha deve conter apenas 6 caracteres")
+    @Size(min = 6, max = 10,message = "a senha deve conter no maximo 10 caracteres")
     private String confirmaSenha;
 
 }
